@@ -92,6 +92,7 @@ if button :
     print('input')
     print(A)
     show = np.zeros((9*28,9*28,3))
+    S.clear()
     cal(A,p,0,n)
     for idx,i in enumerate(S):
         print('result:',idx+1)
