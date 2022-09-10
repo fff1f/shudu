@@ -310,7 +310,6 @@ tldextract @ file:///opt/conda/conda-bld/tldextract_1646638314385/work
 toml @ file:///tmp/build/80754af9/toml_1616166611790/work
 tomli @ file:///tmp/build/80754af9/tomli_1637314251069/work
 toolz @ file:///tmp/build/80754af9/toolz_1636545406491/work
--f https://download.pytorch.org/whl/torch_stable.html 
 torch==1.12.0
 torchaudio==0.12.0
 torchvision==0.13.0
