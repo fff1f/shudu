@@ -3,12 +3,13 @@ os.environ['KMP_DUPLICATE_LIB_OK'] = "TRUE"
 import streamlit as st
 import pandas as pd
 import numpy as np
+import torch
 import CNN.cnn as cnn
 from torchvision import datasets, transforms
 import torch.utils.data as Data
 from PIL import Image
 from main2 import cal,fill,S
-import torch
+
 def cut_image(image):
     width, height = image.size
     item_width = int(width / 9)
