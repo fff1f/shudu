@@ -1,5 +1,5 @@
 import numpy as np
-#global S
+#global S1
 S = []
 
 def fill(A,p,i,j,v):
